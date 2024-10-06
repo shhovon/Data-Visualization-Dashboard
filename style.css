@@ -29,7 +29,7 @@ body {
 	opacity: 0.5;
 	z-index: 1000;
 	pointer-events: none;
-	}
+}
 
 .container {
     max-width: 1200px;
@@ -53,7 +53,6 @@ h1 {
     margin-bottom: 2rem;
 }
 
-/* Flexbox Layout for Two Columns */
 .card-columns {
     display: flex;
     gap: 2rem;
