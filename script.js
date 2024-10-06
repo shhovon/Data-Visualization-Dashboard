@@ -88,7 +88,7 @@ function updateChart() {
     const ctx = document.getElementById('myChart').getContext('2d');
 
     if (window.myChart && window.myChart instanceof Chart) {
-        window.myChart.destroy(); // Only destroy if myChart exists and is a valid Chart instance
+        window.myChart.destroy();
     }
 
     // Create new chart
